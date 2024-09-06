@@ -1,0 +1,42 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <section class="background">
+      <!-- the title -->
+      <h1>Tic Tac Toe</h1>
+
+      <!-- displays who's turn it is -->
+      <section class="display player">
+          Player <span class="display-player playerX">X</span>'s turn
+      </section>
+
+      <!-- declares the winner -->
+      <section class="display announcer hide"></section>
+
+      <!-- a grid of cells to play tictactoe -->
+      <section class="cell-container">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+      </section>
+
+      <!-- reset button -->
+      <button id="reset">Reset</button>
+
+      <script src="./index.js"></script>
+    </section>
+  </body>
+</html>
