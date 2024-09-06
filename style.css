@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Berlin Sans FB, cursive;
+    color: white;
+}
+
+body {
+    background: linear-gradient(to right, #9900cc, #cc0099);
+    background-size: cover;
+    padding-top: 1px;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    padding-top: 50px;
+    letter-spacing: 3px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.display {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.cell-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    max-width: 306px;
+    margin: 10px auto;
+    background-color: #11213a;
+    color: #04c0b2;
+}
+
+.cell {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border: 1px solid #transparent;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #fff;
+}
+
+.playerX {
+    color: #66ff66;
+}
+
+.playerO {
+    color: #66ccff;
+}
+
+button {
+    margin-top: 2%;
+    background-color: #ff99ff;
+    padding: 10px;
+    width: 80px;
+    height: 48px;
+    font-size: 21px;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid #transparent;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #660099;
+}
